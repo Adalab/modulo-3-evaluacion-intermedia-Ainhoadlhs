@@ -2,3 +2,27 @@
 
 //importa cada layout
 //@import '../styles/nombre-de-fichero.scss';
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ulList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.listCountry {
+    border: solid 1px black;
+    text-align: center;
+    padding-inline: 10px;
+    list-style: none;
+}
